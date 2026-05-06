@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About Me</title>
-
-    <style>
-        body {
-            background-color: lightyellow;
-            color: black;
-            text-align: center;
-            margin: 20px;
-            padding: 20px;
-        }
-
-        h1 {
-            color: blue;
-        }
-
-        p {
-            margin: 10px;
-            padding: 10px;
-        }
-
-        img {
-            border: 2px solid black;
-            margin: 10px;
-            width: 150px;   /* keeps image size fixed */
-            height: 150px;
-        }
-    </style>
+    <title>Student Resume</title>
 </head>
 
 <body>
 
-    <h1>About Me</h1>
+    <!-- Heading -->
+    <h1>Ashish pawar</h1>
 
-    <!-- Better to use simple/working image -->
-    <img src="myphoto.jpeg" alt="My Image">
+    <!-- Profile Summary -->
+    <p>
+        I am a student learning web development. I am interested in programming
+        and want to build a career in software development.
+    </p>
 
-    <p>Hello! My name is ashish pawar. I am learning web development.</p>
+    <!-- Education Section -->
+    <h2>Education</h2>
+    <table border="1">
+        <tr>
+            <th>Year</th>
+            <th>Course</th>
+            <th>Institute</th>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>Bachelor Degree</td>
+            <td>MIT College</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>12th</td>
+            <td>Sevadas School</td>
+        </tr>
+    </table>
 
-    <p>I enjoy coding and building simple websites using HTML and CSS.</p>
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>Basic CSS</li>
+        <li>PHP Beginner</li>
+    </ul>
 
-    <p>My goal is to become a skilled web developer in the future.</p>
+    <!-- Contact Form -->
+    <h2>Contact Me</h2>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
 
 </body>
 </html>
